@@ -48,6 +48,7 @@
 <style lang="stylus" scoped>
 .footer
   width 65%
+  padding 0 0 20% 0
   margin 0 auto
 
   .footer__address
@@ -57,8 +58,9 @@
     align-items center
 
     .footer__address-title
-      font-size 1.3rem
       padding 8% 0 8% 0
+      font-size 1.3rem
+      font-weight 900
 
     .footer__address-text
       width 75%
@@ -75,6 +77,8 @@
 
     .footer__contact-title
       padding 0 0 8% 0
+      font-weight 900
+      font-size 1.3rem
 
     .footer__contact-item
       display flex
